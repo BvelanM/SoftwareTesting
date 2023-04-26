@@ -21,7 +21,7 @@ public class Task6_day {
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		WebElement clothing=driver.findElement(By.xpath("//*[@id=\"Mod112\"]/div/div/ul/li[1]/h4/a"));
 		clothing.click();
-		List<WebElement> items=driver.findElements(By.className("product-title"));
+		List<WebElement> items=driver.findElements(By.xpath("//*[@id=\"akeeba-renderjoomla\"]/div/div/div[1]/div/div/div/h2");
 		for (int i=0;i<items.size();i++) {
 			System.out.println(items.get(i).getText());
 		}
