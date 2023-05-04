@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+      <parameter name="browser" value= "edge" />
+<listeners>
+<listener class-name="day10.Listener" />
+</listeners>
+
+    <classes>
+      <class name="day10.Task4and5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
